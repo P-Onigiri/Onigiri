@@ -4,8 +4,8 @@ import os
 from datetime import datetime
 import requests
 
-pushover_user_key = "uop8epposncmfq9quxkuhy63af1uoy"
-pushover_api_token = "aztprr9exhjbm6wj85ru17i2kr1mqp"
+pushover_user_key = "your_user_key"
+pushover_api_token = "api_token_from_pushover"
 
 def send_pushover_notification(title, message, image_path):
     url = "https://api.pushover.net/1/messages.json"
